@@ -16,7 +16,7 @@ export const Footer: React.FC<FooterProps> = ({ onPrivacyClick, onCategoryClick 
   };
 
   return (
-    <footer className="bg-[#123C3A] text-[#FAF9F6] pt-16 pb-24 sm:pb-16 border-t border-[#1a4a47] relative">
+    <footer className="bg-[#123C3A] text-[#FAF9F6] pt-16 pb-16 border-t border-[#1a4a47] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Footer Grid */}

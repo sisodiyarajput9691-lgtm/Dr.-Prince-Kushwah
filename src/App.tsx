@@ -87,8 +87,8 @@ export default function App() {
         onCategoryClick={() => scrollToTreatments()}
       />
 
-      {/* Floating WhatsApp and Mobile Bottom Action Bar */}
-      <FloatingActions onBookClick={() => scrollToBooking()} />
+      {/* Floating WhatsApp Action */}
+      <FloatingActions />
 
       {/* Privacy Policy Modal */}
       <PrivacyModal
