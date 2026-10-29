@@ -9,7 +9,6 @@ import { Hero } from './components/Hero';
 import { TrustStrip } from './components/TrustStrip';
 import { AboutSection } from './components/AboutSection';
 import { TreatmentExplorer } from './components/TreatmentExplorer';
-import { SmileGallery } from './components/SmileGallery';
 import { PatientReviews } from './components/PatientReviews';
 import { AppointmentBooking } from './components/AppointmentBooking';
 import { LocationContact } from './components/LocationContact';
@@ -67,9 +66,6 @@ export default function App() {
         <TreatmentExplorer
           onSelectTreatmentForBooking={(treatmentName) => scrollToBooking(treatmentName)}
         />
-
-        {/* Smile Gallery & Clinic Facilities with Lightbox */}
-        <SmileGallery />
 
         {/* Patient Reviews & Google Rating Overview */}
         <PatientReviews />

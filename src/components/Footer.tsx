@@ -69,9 +69,6 @@ export const Footer: React.FC<FooterProps> = ({ onPrivacyClick, onCategoryClick 
                 <a href="#treatments" className="hover:text-white transition-colors">Treatments Directory</a>
               </li>
               <li>
-                <a href="#gallery" className="hover:text-white transition-colors">Smile & Clinic Gallery</a>
-              </li>
-              <li>
                 <a href="#reviews" className="hover:text-white transition-colors">Patient Reviews</a>
               </li>
               <li>
